@@ -4,22 +4,20 @@ import retrofit2.Call;
 import retrofit2.Response;
 import retrofit2.Retrofit;
 import retrofit2.converter.gson.GsonConverterFactory;
-import weather.ipma_client.IpmaCityForecast;
-import weather.ipma_client.IpmaService;
 
 import java.util.logging.Logger;
 
 /**
  * demonstrates the use of the IPMA API for weather forecast
  */
-public class WeatherStarter {
+public class Main {
 
     private static final int CITY_ID_AVEIRO = 1010500;
     /*
     loggers provide a better alternative to System.out.println
     https://rules.sonarsource.com/java/tag/bad-practice/RSPEC-106
      */
-    private static final Logger logger = Logger.getLogger(WeatherStarter.class.getName());
+    private static final Logger logger = Logger.getLogger(Main.class.getName());
 
     public static void  main(String[] args ) {
 
