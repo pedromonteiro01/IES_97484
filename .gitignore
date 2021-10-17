@@ -1,2 +1,3 @@
-.vscode
-.settings
+.vscode/*
+lab1/lab1_2/my-app/.settings/*
+lab1/lab1_2/myweatherradar/.settings/*
