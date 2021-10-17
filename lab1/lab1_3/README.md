@@ -64,5 +64,17 @@ Lista de alguns dos comandos mais habituais com o *git*<br><br>
 
 	git log --stat
 
+
+**Exemplo ilustrativo**
+```
+cd project_folder # move to the root of the working folder to be imported
+git init # initialize a local git repo in this folder
+git remote add origin <REMOTE_URL> #must adapt the url for your repo
+git add. # mark all existing changes in this root to be commited
+git commit -m "Initial project setup for exercise 1_3" #create the
+commit snapshot locally
+git push -u origin main #uploads the local commit to the shared repo
+```
+
 **Adicionar ficheiro .gitignore** <br>
 Este ficheiro é colocado na raíz do repositório e serve para ignorar todos os ficheiros que não são importantes, ou seja, ficheiros que não vão ser *commited*

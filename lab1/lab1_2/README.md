@@ -151,3 +151,18 @@ Foi criado um projeto Maven com o nome *my-app*
 - version: 1.0-SNAPSHOT
 
 Disponível em [`my-app`](https://github.com/pedromonteiro01/IES_97484/blob/main/lab1/lab1_2/my-app) 
+
+Para compilar
+```
+mvn package
+```
+
+Para correr o programa (deve-se adaptar o *package* e o nome da classe)
+```
+mvn exec:java -Dexec.mainClass="package.class" 
+```
+
+Para correr o programa com argumentos de entrada
+```
+mvn exec:java -Dexec.mainClass="package.class" -Dexec.args="arg0 arg1 arg2"
+```
