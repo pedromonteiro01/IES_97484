@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <projectDescription>
-	<name>ipmaclient_api</name>
+	<name>weatherforecastbycity</name>
 	<comment></comment>
 	<projects>
 	</projects>
@@ -22,7 +22,7 @@
 	</natures>
 	<filteredResources>
 		<filter>
-			<id>1634850954031</id>
+			<id>1634857175142</id>
 			<name></name>
 			<type>30</type>
 			<matcher>
