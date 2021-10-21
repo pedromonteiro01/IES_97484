@@ -29,8 +29,16 @@ public class Main {
                 .addConverterFactory(GsonConverterFactory.create())
                 .build();
 
+        int cityCode = 0;
+        if (args.length == 0) {
+            logger.info( "Invalid city code!");
+            System.exit(0);
+        } else{
+            cityCode = Integer.parseInt(args[0]);
+        }
+        
         IpmaService service = retrofit.create(IpmaService.class);
-        Call<IpmaCityForecast> callSync = service.getForecastForACity(CITY_ID_AVEIRO);
+        Call<IpmaCityForecast> callSync = service.getForecastForACity(cityCode);
 
         try {
             Response<IpmaCityForecast> apiResponse = callSync.execute();
@@ -38,7 +46,7 @@ public class Main {
 
             if (forecast != null) {
                 logger.info( "max temp for today: " + forecast.getData().
-                        listIterator().next().getTMax() + "ºC");
+                        listIterator().next().getTMax());
             } else {
                 logger.info( "No results!");
             }
