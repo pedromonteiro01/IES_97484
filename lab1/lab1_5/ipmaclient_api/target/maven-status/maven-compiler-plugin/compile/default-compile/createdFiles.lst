@@ -1,0 +1,6 @@
+com/ipmaapiclient/Main.class
+com/ipmaapiclient/IpmaService.class
+com/ipmaapiclient/Cities.class
+com/ipmaapiclient/City.class
+com/ipmaapiclient/CityForecast.class
+com/ipmaapiclient/IpmaCityForecast.class
