@@ -80,6 +80,7 @@ git push -u origin main #uploads the local commit to the shared repo
 Este ficheiro é colocado na raíz do repositório e serve para ignorar todos os ficheiros que não são importantes, ou seja, ficheiros que não vão ser *commited*
 
 Neste exercício foi simulada a existência de outro colaborador, para isso foi criada uma nova pasta com o nome 'location2', noutro diretório do computador.
+```
 |
  \
   Desktop
@@ -91,6 +92,7 @@ Neste exercício foi simulada a existência de outro colaborador, para isso foi 
 			  IES_97484
 		  	           \ 
 			            location1
+```
 
 ```
 git clone git@github.com:pedromonteiro01/IES_97484.git
