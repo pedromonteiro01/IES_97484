@@ -46,7 +46,7 @@ public class Main {
             IpmaCityForecast forecast = apiResponse.body();
 
             if (forecast != null) {
-                logger.info( "max temp for today: " + forecast.getData().
+                logger.info( "Max temp for today: " + forecast.getData().
                         listIterator().next().getTMax()+"ºC");
             } else {
                 logger.info( "No results!");

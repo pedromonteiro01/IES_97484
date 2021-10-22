@@ -14,12 +14,16 @@ public class App {
 
         try {
             CityForecast api = Main.getAllData(args[0]);
-            logger.info("Max temp for today:" + api.getTMax()+"ºC");
+            logger.info("Max temp for today: " + api.getTMax()+"ºC");
         } 
         
         catch (NullPointerException e) {
             // handle exception when api not working (or network is off)
             logger.info("API not working!");
+        }
+
+        catch (Exception ex) {
+            ex.printStackTrace();
         }
     }
 }
