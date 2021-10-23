@@ -85,6 +85,10 @@ Começar por obter o código presente no repositório, isto é, fazer clone do r
 ```
 git clone <REPOSITORY_URL>
 ```
+Caso já tenha o repositório no computador, descarregar as atualizações mais recentes
+```
+git pull
+```
 Entrar no diretório correto
 ```
 cd project_folder
@@ -99,7 +103,7 @@ Escrever a mensagem de commit
 ```
 Enviar os ficheiros para o repositório
 ```
-git push -u origin main
+git push
 ```
 
 D) <br>
@@ -126,4 +130,4 @@ Dicas/Regras para uma boa mensagem de *commit*:
 11. Seguir a convenção usada pela equipa
 
 E) <br>
-É importante porque se usarmos sempre o mesmo *container* a  cada vez que é executado *docker stop/start* é necessário reiniciar. Caso se use *docker run* vai ser criado um novo *container* vazio, ou seja, vão ser perdidos dados. É então necessário criar volumes com espaço suficiente para *database production* e garantir que há uma boa estratégia de backup, evitando assim que haja dados que são perdidos. 
+É importante porque se usarmos sempre o mesmo *container* a cada vez que é executado *docker stop/start* é necessário reiniciar. Caso se use *docker run* vai ser criado um novo *container* vazio, ou seja, vão ser perdidos dados. É,então, necessário criar volumes com espaço suficiente (sendo que o espaço *default* é muito baixo) para *database production* e garantir que há uma boa estratégia de backup, evitando assim que haja dados que são perdidos. 
