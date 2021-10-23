@@ -20,6 +20,12 @@ O que é o Maven?
     - gradle
     - kotlin
 
+O que faz o Maven?
+- Constrói facilmente um projeto
+- É possível adicionar *jars* e outras dependências facilmente com a ajuda do maven
+- Fornece informação acerca do rpojeto (logs, documentação, lista de dependências)
+- Usando Maven pode-se facilmente integrar o projeto com um *source control system*, por exemplo, o *git*.
+
 | Nome do diretório | Propósito | 
 | :---: | :---: | 
 | Project Home | Contém o pom.xml e todos os subdiretórios. | 
