@@ -46,7 +46,7 @@ public class Main {
 
             if (forecast != null) {
                 logger.info( "max temp for today: " + forecast.getData().
-                        listIterator().next().getTMax());
+                        listIterator().next().getTMax()+"ºC");
             } else {
                 logger.info( "No results!");
             }
