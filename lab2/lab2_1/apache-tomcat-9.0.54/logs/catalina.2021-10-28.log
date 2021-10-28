@@ -1,0 +1,411 @@
+28-Oct-2021 09:16:06.986 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/9.0.54
+28-Oct-2021 09:16:06.988 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Sep 28 2021 13:51:49 UTC
+28-Oct-2021 09:16:06.988 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 9.0.54.0
+28-Oct-2021 09:16:06.988 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Linux
+28-Oct-2021 09:16:06.989 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            5.4.0-67-generic
+28-Oct-2021 09:16:06.989 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+28-Oct-2021 09:16:06.989 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /usr/lib/jvm/java-11-openjdk-amd64
+28-Oct-2021 09:16:06.989 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           11.0.10+9-Ubuntu-0ubuntu1.20.04
+28-Oct-2021 09:16:06.989 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Ubuntu
+28-Oct-2021 09:16:06.989 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /home/pedro/Desktop/IES/IES_97484/lab2/lab2_1/apache-tomcat-9.0.54
+28-Oct-2021 09:16:06.989 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /home/pedro/Desktop/IES/IES_97484/lab2/lab2_1/apache-tomcat-9.0.54
+28-Oct-2021 09:16:07.000 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+28-Oct-2021 09:16:07.001 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+28-Oct-2021 09:16:07.001 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+28-Oct-2021 09:16:07.001 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+28-Oct-2021 09:16:07.001 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+28-Oct-2021 09:16:07.001 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/home/pedro/Desktop/IES/IES_97484/lab2/lab2_1/apache-tomcat-9.0.54/conf/logging.properties
+28-Oct-2021 09:16:07.002 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+28-Oct-2021 09:16:07.002 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+28-Oct-2021 09:16:07.002 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+28-Oct-2021 09:16:07.002 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+28-Oct-2021 09:16:07.002 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+28-Oct-2021 09:16:07.002 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/home/pedro/Desktop/IES/IES_97484/lab2/lab2_1/apache-tomcat-9.0.54
+28-Oct-2021 09:16:07.002 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/home/pedro/Desktop/IES/IES_97484/lab2/lab2_1/apache-tomcat-9.0.54
+28-Oct-2021 09:16:07.002 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/home/pedro/Desktop/IES/IES_97484/lab2/lab2_1/apache-tomcat-9.0.54/temp
+28-Oct-2021 09:16:07.004 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [/usr/java/packages/lib:/usr/lib/x86_64-linux-gnu/jni:/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/jni:/lib:/usr/lib]
+28-Oct-2021 09:16:07.263 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+28-Oct-2021 09:16:07.286 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [445] milliseconds
+28-Oct-2021 09:16:07.329 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+28-Oct-2021 09:16:07.330 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.54]
+28-Oct-2021 09:16:07.337 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/pedro/Desktop/IES/IES_97484/lab2/lab2_1/apache-tomcat-9.0.54/webapps/docs]
+28-Oct-2021 09:16:07.524 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/pedro/Desktop/IES/IES_97484/lab2/lab2_1/apache-tomcat-9.0.54/webapps/docs] has finished in [186] ms
+28-Oct-2021 09:16:07.524 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/pedro/Desktop/IES/IES_97484/lab2/lab2_1/apache-tomcat-9.0.54/webapps/host-manager]
+28-Oct-2021 09:16:07.548 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/pedro/Desktop/IES/IES_97484/lab2/lab2_1/apache-tomcat-9.0.54/webapps/host-manager] has finished in [24] ms
+28-Oct-2021 09:16:07.548 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/pedro/Desktop/IES/IES_97484/lab2/lab2_1/apache-tomcat-9.0.54/webapps/examples]
+28-Oct-2021 09:16:07.704 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/pedro/Desktop/IES/IES_97484/lab2/lab2_1/apache-tomcat-9.0.54/webapps/examples] has finished in [156] ms
+28-Oct-2021 09:16:07.704 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/pedro/Desktop/IES/IES_97484/lab2/lab2_1/apache-tomcat-9.0.54/webapps/manager]
+28-Oct-2021 09:16:07.722 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/pedro/Desktop/IES/IES_97484/lab2/lab2_1/apache-tomcat-9.0.54/webapps/manager] has finished in [18] ms
+28-Oct-2021 09:16:07.722 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/pedro/Desktop/IES/IES_97484/lab2/lab2_1/apache-tomcat-9.0.54/webapps/ROOT]
+28-Oct-2021 09:16:07.736 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/pedro/Desktop/IES/IES_97484/lab2/lab2_1/apache-tomcat-9.0.54/webapps/ROOT] has finished in [14] ms
+28-Oct-2021 09:16:07.740 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+28-Oct-2021 09:16:07.748 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [460] milliseconds
+28-Oct-2021 09:21:27.805 INFO [Catalina-utility-2] org.apache.catalina.users.MemoryUserDatabase.backgroundProcess Reloading memory user database [UserDatabase] from updated source [file:/home/pedro/Desktop/IES/IES_97484/lab2/lab2_1/apache-tomcat-9.0.54/conf/tomcat-users.xml]
+28-Oct-2021 09:22:38.590 INFO [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+28-Oct-2021 09:22:38.590 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+28-Oct-2021 09:22:38.597 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+28-Oct-2021 09:22:38.612 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+28-Oct-2021 09:22:38.649 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+28-Oct-2021 09:22:43.401 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/9.0.54
+28-Oct-2021 09:22:43.403 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Sep 28 2021 13:51:49 UTC
+28-Oct-2021 09:22:43.403 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 9.0.54.0
+28-Oct-2021 09:22:43.404 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Linux
+28-Oct-2021 09:22:43.404 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            5.4.0-67-generic
+28-Oct-2021 09:22:43.404 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+28-Oct-2021 09:22:43.404 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /usr/lib/jvm/java-11-openjdk-amd64
+28-Oct-2021 09:22:43.404 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           11.0.10+9-Ubuntu-0ubuntu1.20.04
+28-Oct-2021 09:22:43.404 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Ubuntu
+28-Oct-2021 09:22:43.404 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /home/pedro/Desktop/IES/IES_97484/lab2/lab2_1/apache-tomcat-9.0.54
+28-Oct-2021 09:22:43.404 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /home/pedro/Desktop/IES/IES_97484/lab2/lab2_1/apache-tomcat-9.0.54
+28-Oct-2021 09:22:43.414 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+28-Oct-2021 09:22:43.415 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+28-Oct-2021 09:22:43.415 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+28-Oct-2021 09:22:43.415 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+28-Oct-2021 09:22:43.415 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+28-Oct-2021 09:22:43.415 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/home/pedro/Desktop/IES/IES_97484/lab2/lab2_1/apache-tomcat-9.0.54/conf/logging.properties
+28-Oct-2021 09:22:43.415 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+28-Oct-2021 09:22:43.416 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+28-Oct-2021 09:22:43.416 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+28-Oct-2021 09:22:43.416 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+28-Oct-2021 09:22:43.416 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+28-Oct-2021 09:22:43.416 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/home/pedro/Desktop/IES/IES_97484/lab2/lab2_1/apache-tomcat-9.0.54
+28-Oct-2021 09:22:43.416 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/home/pedro/Desktop/IES/IES_97484/lab2/lab2_1/apache-tomcat-9.0.54
+28-Oct-2021 09:22:43.416 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/home/pedro/Desktop/IES/IES_97484/lab2/lab2_1/apache-tomcat-9.0.54/temp
+28-Oct-2021 09:22:43.417 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [/usr/java/packages/lib:/usr/lib/x86_64-linux-gnu/jni:/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/jni:/lib:/usr/lib]
+28-Oct-2021 09:22:43.648 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+28-Oct-2021 09:22:43.665 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [385] milliseconds
+28-Oct-2021 09:22:43.706 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+28-Oct-2021 09:22:43.706 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.54]
+28-Oct-2021 09:22:43.711 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/pedro/Desktop/IES/IES_97484/lab2/lab2_1/apache-tomcat-9.0.54/webapps/docs]
+28-Oct-2021 09:22:43.880 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/pedro/Desktop/IES/IES_97484/lab2/lab2_1/apache-tomcat-9.0.54/webapps/docs] has finished in [169] ms
+28-Oct-2021 09:22:43.881 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/pedro/Desktop/IES/IES_97484/lab2/lab2_1/apache-tomcat-9.0.54/webapps/host-manager]
+28-Oct-2021 09:22:43.911 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/pedro/Desktop/IES/IES_97484/lab2/lab2_1/apache-tomcat-9.0.54/webapps/host-manager] has finished in [31] ms
+28-Oct-2021 09:22:43.912 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/pedro/Desktop/IES/IES_97484/lab2/lab2_1/apache-tomcat-9.0.54/webapps/examples]
+28-Oct-2021 09:22:44.104 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/pedro/Desktop/IES/IES_97484/lab2/lab2_1/apache-tomcat-9.0.54/webapps/examples] has finished in [193] ms
+28-Oct-2021 09:22:44.104 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/pedro/Desktop/IES/IES_97484/lab2/lab2_1/apache-tomcat-9.0.54/webapps/manager]
+28-Oct-2021 09:22:44.118 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/pedro/Desktop/IES/IES_97484/lab2/lab2_1/apache-tomcat-9.0.54/webapps/manager] has finished in [14] ms
+28-Oct-2021 09:22:44.118 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/pedro/Desktop/IES/IES_97484/lab2/lab2_1/apache-tomcat-9.0.54/webapps/ROOT]
+28-Oct-2021 09:22:44.131 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/pedro/Desktop/IES/IES_97484/lab2/lab2_1/apache-tomcat-9.0.54/webapps/ROOT] has finished in [12] ms
+28-Oct-2021 09:22:44.134 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+28-Oct-2021 09:22:44.141 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [475] milliseconds
+28-Oct-2021 09:40:35.225 INFO [http-nio-8080-exec-3] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [/home/pedro/Desktop/IES/IES_97484/lab2/lab2_1/apache-tomcat-9.0.54/webapps/my-webapp-1.0-SNAPSHOT.war]
+28-Oct-2021 09:40:35.246 INFO [http-nio-8080-exec-3] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [/home/pedro/Desktop/IES/IES_97484/lab2/lab2_1/apache-tomcat-9.0.54/webapps/my-webapp-1.0-SNAPSHOT.war] has finished in [20] ms
+28-Oct-2021 10:05:04.686 INFO [Catalina-utility-2] org.apache.catalina.startup.HostConfig.reload Reloading context []
+28-Oct-2021 10:05:04.686 INFO [Catalina-utility-2] org.apache.catalina.core.StandardContext.reload Reloading Context with name [] has started
+28-Oct-2021 10:05:04.720 INFO [Catalina-utility-2] org.apache.catalina.core.StandardContext.reload Reloading Context with name [] is completed
+28-Oct-2021 10:05:04.720 INFO [Catalina-utility-2] org.apache.catalina.startup.HostConfig.reload Reloading context [/my-webapp-1.0-SNAPSHOT]
+28-Oct-2021 10:05:04.720 INFO [Catalina-utility-2] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/my-webapp-1.0-SNAPSHOT] has started
+28-Oct-2021 10:05:04.739 INFO [Catalina-utility-2] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/my-webapp-1.0-SNAPSHOT] is completed
+28-Oct-2021 10:05:04.739 INFO [Catalina-utility-2] org.apache.catalina.startup.HostConfig.reload Reloading context [/examples]
+28-Oct-2021 10:05:04.739 INFO [Catalina-utility-2] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/examples] has started
+28-Oct-2021 10:05:04.828 INFO [Catalina-utility-2] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/examples] is completed
+28-Oct-2021 10:05:04.829 INFO [Catalina-utility-2] org.apache.catalina.startup.HostConfig.reload Reloading context [/host-manager]
+28-Oct-2021 10:05:04.829 INFO [Catalina-utility-2] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/host-manager] has started
+28-Oct-2021 10:05:04.841 INFO [Catalina-utility-2] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/host-manager] is completed
+28-Oct-2021 10:05:04.842 INFO [Catalina-utility-2] org.apache.catalina.startup.HostConfig.reload Reloading context [/manager]
+28-Oct-2021 10:05:04.842 INFO [Catalina-utility-2] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/manager] has started
+28-Oct-2021 10:05:04.870 INFO [Catalina-utility-2] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/manager] is completed
+28-Oct-2021 10:05:14.872 INFO [Catalina-utility-2] org.apache.catalina.startup.HostConfig.reload Reloading context []
+28-Oct-2021 10:05:14.872 INFO [Catalina-utility-2] org.apache.catalina.core.StandardContext.reload Reloading Context with name [] has started
+28-Oct-2021 10:05:14.910 SEVERE [Catalina-utility-2] org.apache.catalina.core.StandardContext.reload Exception starting Context with name []
+	org.apache.catalina.LifecycleException: Failed to start component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[]]
+		at org.apache.catalina.util.LifecycleBase.handleSubClassException(LifecycleBase.java:440)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:198)
+		at org.apache.catalina.core.StandardContext.reload(StandardContext.java:3818)
+		at org.apache.catalina.startup.HostConfig.reload(HostConfig.java:1443)
+		at org.apache.catalina.startup.HostConfig.checkResources(HostConfig.java:1415)
+		at org.apache.catalina.startup.HostConfig.check(HostConfig.java:1654)
+		at org.apache.catalina.startup.HostConfig.lifecycleEvent(HostConfig.java:315)
+		at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:123)
+		at org.apache.catalina.core.ContainerBase.backgroundProcess(ContainerBase.java:1162)
+		at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren(ContainerBase.java:1365)
+		at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren(ContainerBase.java:1369)
+		at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.run(ContainerBase.java:1347)
+		at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+		at java.base/java.util.concurrent.FutureTask.runAndReset(FutureTask.java:305)
+		at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:305)
+		at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+		at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.base/java.lang.Thread.run(Thread.java:834)
+	Caused by: java.lang.IllegalArgumentException: Servlet mapping specifies an unknown servlet name [MyFirstServlet]
+		at org.apache.catalina.core.StandardContext.addServletMappingDecoded(StandardContext.java:3228)
+		at org.apache.catalina.Context.addServletMappingDecoded(Context.java:905)
+		at org.apache.catalina.startup.ContextConfig.configureContext(ContextConfig.java:1562)
+		at org.apache.catalina.startup.ContextConfig.webConfig(ContextConfig.java:1335)
+		at org.apache.catalina.startup.ContextConfig.configureStart(ContextConfig.java:986)
+		at org.apache.catalina.startup.ContextConfig.lifecycleEvent(ContextConfig.java:303)
+		at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:123)
+		at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5135)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		... 17 more
+28-Oct-2021 10:05:14.912 INFO [Catalina-utility-2] org.apache.catalina.core.StandardContext.reload Reloading Context with name [] is completed
+28-Oct-2021 10:05:14.912 INFO [Catalina-utility-2] org.apache.catalina.startup.HostConfig.reload Reloading context [/my-webapp-1.0-SNAPSHOT]
+28-Oct-2021 10:05:14.913 INFO [Catalina-utility-2] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/my-webapp-1.0-SNAPSHOT] has started
+28-Oct-2021 10:05:14.922 SEVERE [Catalina-utility-2] org.apache.catalina.core.StandardContext.reload Exception starting Context with name [/my-webapp-1.0-SNAPSHOT]
+	org.apache.catalina.LifecycleException: Failed to start component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/my-webapp-1.0-SNAPSHOT]]
+		at org.apache.catalina.util.LifecycleBase.handleSubClassException(LifecycleBase.java:440)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:198)
+		at org.apache.catalina.core.StandardContext.reload(StandardContext.java:3818)
+		at org.apache.catalina.startup.HostConfig.reload(HostConfig.java:1443)
+		at org.apache.catalina.startup.HostConfig.checkResources(HostConfig.java:1415)
+		at org.apache.catalina.startup.HostConfig.check(HostConfig.java:1654)
+		at org.apache.catalina.startup.HostConfig.lifecycleEvent(HostConfig.java:315)
+		at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:123)
+		at org.apache.catalina.core.ContainerBase.backgroundProcess(ContainerBase.java:1162)
+		at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren(ContainerBase.java:1365)
+		at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren(ContainerBase.java:1369)
+		at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.run(ContainerBase.java:1347)
+		at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+		at java.base/java.util.concurrent.FutureTask.runAndReset(FutureTask.java:305)
+		at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:305)
+		at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+		at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.base/java.lang.Thread.run(Thread.java:834)
+	Caused by: java.lang.IllegalArgumentException: Servlet mapping specifies an unknown servlet name [MyFirstServlet]
+		at org.apache.catalina.core.StandardContext.addServletMappingDecoded(StandardContext.java:3228)
+		at org.apache.catalina.Context.addServletMappingDecoded(Context.java:905)
+		at org.apache.catalina.startup.ContextConfig.configureContext(ContextConfig.java:1562)
+		at org.apache.catalina.startup.ContextConfig.webConfig(ContextConfig.java:1329)
+		at org.apache.catalina.startup.ContextConfig.configureStart(ContextConfig.java:986)
+		at org.apache.catalina.startup.ContextConfig.lifecycleEvent(ContextConfig.java:303)
+		at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:123)
+		at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5135)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		... 17 more
+28-Oct-2021 10:05:14.922 INFO [Catalina-utility-2] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/my-webapp-1.0-SNAPSHOT] is completed
+28-Oct-2021 10:05:14.923 INFO [Catalina-utility-2] org.apache.catalina.startup.HostConfig.reload Reloading context [/examples]
+28-Oct-2021 10:05:14.923 INFO [Catalina-utility-2] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/examples] has started
+28-Oct-2021 10:05:14.964 SEVERE [Catalina-utility-2] org.apache.catalina.core.StandardContext.reload Exception starting Context with name [/examples]
+	org.apache.catalina.LifecycleException: Failed to start component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/examples]]
+		at org.apache.catalina.util.LifecycleBase.handleSubClassException(LifecycleBase.java:440)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:198)
+		at org.apache.catalina.core.StandardContext.reload(StandardContext.java:3818)
+		at org.apache.catalina.startup.HostConfig.reload(HostConfig.java:1443)
+		at org.apache.catalina.startup.HostConfig.checkResources(HostConfig.java:1415)
+		at org.apache.catalina.startup.HostConfig.check(HostConfig.java:1654)
+		at org.apache.catalina.startup.HostConfig.lifecycleEvent(HostConfig.java:315)
+		at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:123)
+		at org.apache.catalina.core.ContainerBase.backgroundProcess(ContainerBase.java:1162)
+		at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren(ContainerBase.java:1365)
+		at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren(ContainerBase.java:1369)
+		at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.run(ContainerBase.java:1347)
+		at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+		at java.base/java.util.concurrent.FutureTask.runAndReset(FutureTask.java:305)
+		at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:305)
+		at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+		at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.base/java.lang.Thread.run(Thread.java:834)
+	Caused by: java.lang.IllegalArgumentException: Servlet mapping specifies an unknown servlet name [MyFirstServlet]
+		at org.apache.catalina.core.StandardContext.addServletMappingDecoded(StandardContext.java:3228)
+		at org.apache.catalina.Context.addServletMappingDecoded(Context.java:905)
+		at org.apache.catalina.startup.ContextConfig.configureContext(ContextConfig.java:1562)
+		at org.apache.catalina.startup.ContextConfig.webConfig(ContextConfig.java:1335)
+		at org.apache.catalina.startup.ContextConfig.configureStart(ContextConfig.java:986)
+		at org.apache.catalina.startup.ContextConfig.lifecycleEvent(ContextConfig.java:303)
+		at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:123)
+		at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5135)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		... 17 more
+28-Oct-2021 10:05:14.965 INFO [Catalina-utility-2] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/examples] is completed
+28-Oct-2021 10:05:14.965 INFO [Catalina-utility-2] org.apache.catalina.startup.HostConfig.reload Reloading context [/host-manager]
+28-Oct-2021 10:05:14.965 INFO [Catalina-utility-2] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/host-manager] has started
+28-Oct-2021 10:05:14.974 SEVERE [Catalina-utility-2] org.apache.catalina.core.StandardContext.reload Exception starting Context with name [/host-manager]
+	org.apache.catalina.LifecycleException: Failed to start component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/host-manager]]
+		at org.apache.catalina.util.LifecycleBase.handleSubClassException(LifecycleBase.java:440)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:198)
+		at org.apache.catalina.core.StandardContext.reload(StandardContext.java:3818)
+		at org.apache.catalina.startup.HostConfig.reload(HostConfig.java:1443)
+		at org.apache.catalina.startup.HostConfig.checkResources(HostConfig.java:1415)
+		at org.apache.catalina.startup.HostConfig.check(HostConfig.java:1654)
+		at org.apache.catalina.startup.HostConfig.lifecycleEvent(HostConfig.java:315)
+		at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:123)
+		at org.apache.catalina.core.ContainerBase.backgroundProcess(ContainerBase.java:1162)
+		at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren(ContainerBase.java:1365)
+		at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren(ContainerBase.java:1369)
+		at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.run(ContainerBase.java:1347)
+		at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+		at java.base/java.util.concurrent.FutureTask.runAndReset(FutureTask.java:305)
+		at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:305)
+		at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+		at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.base/java.lang.Thread.run(Thread.java:834)
+	Caused by: java.lang.IllegalArgumentException: Servlet mapping specifies an unknown servlet name [MyFirstServlet]
+		at org.apache.catalina.core.StandardContext.addServletMappingDecoded(StandardContext.java:3228)
+		at org.apache.catalina.Context.addServletMappingDecoded(Context.java:905)
+		at org.apache.catalina.startup.ContextConfig.configureContext(ContextConfig.java:1562)
+		at org.apache.catalina.startup.ContextConfig.webConfig(ContextConfig.java:1335)
+		at org.apache.catalina.startup.ContextConfig.configureStart(ContextConfig.java:986)
+		at org.apache.catalina.startup.ContextConfig.lifecycleEvent(ContextConfig.java:303)
+		at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:123)
+		at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5135)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		... 17 more
+28-Oct-2021 10:05:14.976 INFO [Catalina-utility-2] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/host-manager] is completed
+28-Oct-2021 10:05:14.976 INFO [Catalina-utility-2] org.apache.catalina.startup.HostConfig.reload Reloading context [/manager]
+28-Oct-2021 10:05:14.976 INFO [Catalina-utility-2] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/manager] has started
+28-Oct-2021 10:05:14.986 SEVERE [Catalina-utility-2] org.apache.catalina.core.StandardContext.reload Exception starting Context with name [/manager]
+	org.apache.catalina.LifecycleException: Failed to start component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/manager]]
+		at org.apache.catalina.util.LifecycleBase.handleSubClassException(LifecycleBase.java:440)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:198)
+		at org.apache.catalina.core.StandardContext.reload(StandardContext.java:3818)
+		at org.apache.catalina.startup.HostConfig.reload(HostConfig.java:1443)
+		at org.apache.catalina.startup.HostConfig.checkResources(HostConfig.java:1415)
+		at org.apache.catalina.startup.HostConfig.check(HostConfig.java:1654)
+		at org.apache.catalina.startup.HostConfig.lifecycleEvent(HostConfig.java:315)
+		at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:123)
+		at org.apache.catalina.core.ContainerBase.backgroundProcess(ContainerBase.java:1162)
+		at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren(ContainerBase.java:1365)
+		at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren(ContainerBase.java:1369)
+		at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.run(ContainerBase.java:1347)
+		at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+		at java.base/java.util.concurrent.FutureTask.runAndReset(FutureTask.java:305)
+		at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:305)
+		at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+		at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.base/java.lang.Thread.run(Thread.java:834)
+	Caused by: java.lang.IllegalArgumentException: Servlet mapping specifies an unknown servlet name [MyFirstServlet]
+		at org.apache.catalina.core.StandardContext.addServletMappingDecoded(StandardContext.java:3228)
+		at org.apache.catalina.Context.addServletMappingDecoded(Context.java:905)
+		at org.apache.catalina.startup.ContextConfig.configureContext(ContextConfig.java:1562)
+		at org.apache.catalina.startup.ContextConfig.webConfig(ContextConfig.java:1335)
+		at org.apache.catalina.startup.ContextConfig.configureStart(ContextConfig.java:986)
+		at org.apache.catalina.startup.ContextConfig.lifecycleEvent(ContextConfig.java:303)
+		at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:123)
+		at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5135)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		... 17 more
+28-Oct-2021 10:05:14.987 INFO [Catalina-utility-2] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/manager] is completed
+28-Oct-2021 10:05:14.987 INFO [Catalina-utility-2] org.apache.catalina.startup.HostConfig.reload Reloading context [/docs]
+28-Oct-2021 10:05:14.987 INFO [Catalina-utility-2] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/docs] has started
+28-Oct-2021 10:05:14.996 SEVERE [Catalina-utility-2] org.apache.catalina.core.StandardContext.reload Exception starting Context with name [/docs]
+	org.apache.catalina.LifecycleException: Failed to start component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/docs]]
+		at org.apache.catalina.util.LifecycleBase.handleSubClassException(LifecycleBase.java:440)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:198)
+		at org.apache.catalina.core.StandardContext.reload(StandardContext.java:3818)
+		at org.apache.catalina.startup.HostConfig.reload(HostConfig.java:1443)
+		at org.apache.catalina.startup.HostConfig.checkResources(HostConfig.java:1415)
+		at org.apache.catalina.startup.HostConfig.check(HostConfig.java:1654)
+		at org.apache.catalina.startup.HostConfig.lifecycleEvent(HostConfig.java:315)
+		at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:123)
+		at org.apache.catalina.core.ContainerBase.backgroundProcess(ContainerBase.java:1162)
+		at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren(ContainerBase.java:1365)
+		at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren(ContainerBase.java:1369)
+		at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.run(ContainerBase.java:1347)
+		at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+		at java.base/java.util.concurrent.FutureTask.runAndReset(FutureTask.java:305)
+		at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:305)
+		at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+		at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.base/java.lang.Thread.run(Thread.java:834)
+	Caused by: java.lang.IllegalArgumentException: Servlet mapping specifies an unknown servlet name [MyFirstServlet]
+		at org.apache.catalina.core.StandardContext.addServletMappingDecoded(StandardContext.java:3228)
+		at org.apache.catalina.Context.addServletMappingDecoded(Context.java:905)
+		at org.apache.catalina.startup.ContextConfig.configureContext(ContextConfig.java:1562)
+		at org.apache.catalina.startup.ContextConfig.webConfig(ContextConfig.java:1335)
+		at org.apache.catalina.startup.ContextConfig.configureStart(ContextConfig.java:986)
+		at org.apache.catalina.startup.ContextConfig.lifecycleEvent(ContextConfig.java:303)
+		at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:123)
+		at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5135)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		... 17 more
+28-Oct-2021 10:05:14.997 INFO [Catalina-utility-2] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/docs] is completed
+28-Oct-2021 10:05:55.004 INFO [Catalina-utility-2] org.apache.catalina.startup.HostConfig.reload Reloading context []
+28-Oct-2021 10:05:55.021 INFO [Catalina-utility-2] org.apache.catalina.startup.HostConfig.reload Reloading context [/my-webapp-1.0-SNAPSHOT]
+28-Oct-2021 10:05:55.030 INFO [Catalina-utility-2] org.apache.catalina.startup.HostConfig.reload Reloading context [/examples]
+28-Oct-2021 10:05:55.094 INFO [Catalina-utility-2] org.apache.catalina.startup.HostConfig.reload Reloading context [/host-manager]
+28-Oct-2021 10:05:55.104 INFO [Catalina-utility-2] org.apache.catalina.startup.HostConfig.reload Reloading context [/manager]
+28-Oct-2021 10:05:55.115 INFO [Catalina-utility-2] org.apache.catalina.startup.HostConfig.reload Reloading context [/docs]
+28-Oct-2021 10:08:05.150 INFO [Catalina-utility-2] org.apache.catalina.startup.HostConfig.reload Reloading context []
+28-Oct-2021 10:08:05.150 INFO [Catalina-utility-2] org.apache.catalina.core.StandardContext.reload Reloading Context with name [] has started
+28-Oct-2021 10:08:05.160 INFO [Catalina-utility-2] org.apache.catalina.core.StandardContext.reload Reloading Context with name [] is completed
+28-Oct-2021 10:08:05.161 INFO [Catalina-utility-2] org.apache.catalina.startup.HostConfig.reload Reloading context [/my-webapp-1.0-SNAPSHOT]
+28-Oct-2021 10:08:05.161 INFO [Catalina-utility-2] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/my-webapp-1.0-SNAPSHOT] has started
+28-Oct-2021 10:08:05.169 INFO [Catalina-utility-2] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/my-webapp-1.0-SNAPSHOT] is completed
+28-Oct-2021 10:08:05.169 INFO [Catalina-utility-2] org.apache.catalina.startup.HostConfig.reload Reloading context [/examples]
+28-Oct-2021 10:08:05.169 INFO [Catalina-utility-2] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/examples] has started
+28-Oct-2021 10:08:05.224 INFO [Catalina-utility-2] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/examples] is completed
+28-Oct-2021 10:08:05.224 INFO [Catalina-utility-2] org.apache.catalina.startup.HostConfig.reload Reloading context [/host-manager]
+28-Oct-2021 10:08:05.224 INFO [Catalina-utility-2] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/host-manager] has started
+28-Oct-2021 10:08:05.232 INFO [Catalina-utility-2] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/host-manager] is completed
+28-Oct-2021 10:08:05.232 INFO [Catalina-utility-2] org.apache.catalina.startup.HostConfig.reload Reloading context [/manager]
+28-Oct-2021 10:08:05.232 INFO [Catalina-utility-2] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/manager] has started
+28-Oct-2021 10:08:05.243 INFO [Catalina-utility-2] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/manager] is completed
+28-Oct-2021 10:08:05.243 INFO [Catalina-utility-2] org.apache.catalina.startup.HostConfig.reload Reloading context [/docs]
+28-Oct-2021 10:08:05.243 INFO [Catalina-utility-2] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/docs] has started
+28-Oct-2021 10:08:05.251 INFO [Catalina-utility-2] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/docs] is completed
+28-Oct-2021 10:11:55.291 INFO [Catalina-utility-2] org.apache.catalina.startup.HostConfig.reload Reloading context []
+28-Oct-2021 10:11:55.291 INFO [Catalina-utility-2] org.apache.catalina.core.StandardContext.reload Reloading Context with name [] has started
+28-Oct-2021 10:11:55.307 INFO [Catalina-utility-2] org.apache.catalina.core.StandardContext.reload Reloading Context with name [] is completed
+28-Oct-2021 10:11:55.307 INFO [Catalina-utility-2] org.apache.catalina.startup.HostConfig.reload Reloading context [/my-webapp-1.0-SNAPSHOT]
+28-Oct-2021 10:11:55.307 INFO [Catalina-utility-2] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/my-webapp-1.0-SNAPSHOT] has started
+28-Oct-2021 10:11:55.318 INFO [Catalina-utility-2] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/my-webapp-1.0-SNAPSHOT] is completed
+28-Oct-2021 10:11:55.319 INFO [Catalina-utility-2] org.apache.catalina.startup.HostConfig.reload Reloading context [/examples]
+28-Oct-2021 10:11:55.319 INFO [Catalina-utility-2] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/examples] has started
+28-Oct-2021 10:11:55.384 INFO [Catalina-utility-2] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/examples] is completed
+28-Oct-2021 10:11:55.384 INFO [Catalina-utility-2] org.apache.catalina.startup.HostConfig.reload Reloading context [/host-manager]
+28-Oct-2021 10:11:55.384 INFO [Catalina-utility-2] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/host-manager] has started
+28-Oct-2021 10:11:55.392 INFO [Catalina-utility-2] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/host-manager] is completed
+28-Oct-2021 10:11:55.392 INFO [Catalina-utility-2] org.apache.catalina.startup.HostConfig.reload Reloading context [/manager]
+28-Oct-2021 10:11:55.392 INFO [Catalina-utility-2] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/manager] has started
+28-Oct-2021 10:11:55.400 INFO [Catalina-utility-2] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/manager] is completed
+28-Oct-2021 10:11:55.400 INFO [Catalina-utility-2] org.apache.catalina.startup.HostConfig.reload Reloading context [/docs]
+28-Oct-2021 10:11:55.400 INFO [Catalina-utility-2] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/docs] has started
+28-Oct-2021 10:11:55.409 INFO [Catalina-utility-2] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/docs] is completed
+28-Oct-2021 10:47:59.244 INFO [http-nio-8080-exec-21] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/my-webapp-1.0-SNAPSHOT]
+28-Oct-2021 10:48:06.154 INFO [http-nio-8080-exec-20] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [/home/pedro/Desktop/IES/IES_97484/lab2/lab2_1/apache-tomcat-9.0.54/webapps/my-webapp-1.0-SNAPSHOT.war]
+28-Oct-2021 10:48:06.166 INFO [http-nio-8080-exec-20] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [/home/pedro/Desktop/IES/IES_97484/lab2/lab2_1/apache-tomcat-9.0.54/webapps/my-webapp-1.0-SNAPSHOT.war] has finished in [12] ms
+28-Oct-2021 10:48:30.477 INFO [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+28-Oct-2021 10:48:30.477 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+28-Oct-2021 10:48:30.483 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+28-Oct-2021 10:48:30.495 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+28-Oct-2021 10:48:30.530 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+28-Oct-2021 10:48:33.794 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/9.0.54
+28-Oct-2021 10:48:33.796 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Sep 28 2021 13:51:49 UTC
+28-Oct-2021 10:48:33.796 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 9.0.54.0
+28-Oct-2021 10:48:33.796 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Linux
+28-Oct-2021 10:48:33.797 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            5.4.0-67-generic
+28-Oct-2021 10:48:33.797 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+28-Oct-2021 10:48:33.797 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /usr/lib/jvm/java-11-openjdk-amd64
+28-Oct-2021 10:48:33.797 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           11.0.10+9-Ubuntu-0ubuntu1.20.04
+28-Oct-2021 10:48:33.797 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Ubuntu
+28-Oct-2021 10:48:33.797 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /home/pedro/Desktop/IES/IES_97484/lab2/lab2_1/apache-tomcat-9.0.54
+28-Oct-2021 10:48:33.797 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /home/pedro/Desktop/IES/IES_97484/lab2/lab2_1/apache-tomcat-9.0.54
+28-Oct-2021 10:48:33.805 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+28-Oct-2021 10:48:33.805 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+28-Oct-2021 10:48:33.805 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+28-Oct-2021 10:48:33.806 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+28-Oct-2021 10:48:33.806 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+28-Oct-2021 10:48:33.806 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/home/pedro/Desktop/IES/IES_97484/lab2/lab2_1/apache-tomcat-9.0.54/conf/logging.properties
+28-Oct-2021 10:48:33.806 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+28-Oct-2021 10:48:33.806 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+28-Oct-2021 10:48:33.806 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+28-Oct-2021 10:48:33.806 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+28-Oct-2021 10:48:33.806 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+28-Oct-2021 10:48:33.806 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/home/pedro/Desktop/IES/IES_97484/lab2/lab2_1/apache-tomcat-9.0.54
+28-Oct-2021 10:48:33.806 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/home/pedro/Desktop/IES/IES_97484/lab2/lab2_1/apache-tomcat-9.0.54
+28-Oct-2021 10:48:33.806 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/home/pedro/Desktop/IES/IES_97484/lab2/lab2_1/apache-tomcat-9.0.54/temp
+28-Oct-2021 10:48:33.807 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [/usr/java/packages/lib:/usr/lib/x86_64-linux-gnu/jni:/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/jni:/lib:/usr/lib]
+28-Oct-2021 10:48:34.035 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+28-Oct-2021 10:48:34.053 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [379] milliseconds
+28-Oct-2021 10:48:34.089 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+28-Oct-2021 10:48:34.089 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.54]
+28-Oct-2021 10:48:34.098 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [/home/pedro/Desktop/IES/IES_97484/lab2/lab2_1/apache-tomcat-9.0.54/webapps/my-webapp-1.0-SNAPSHOT.war]
+28-Oct-2021 10:48:34.284 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [/home/pedro/Desktop/IES/IES_97484/lab2/lab2_1/apache-tomcat-9.0.54/webapps/my-webapp-1.0-SNAPSHOT.war] has finished in [185] ms
+28-Oct-2021 10:48:34.284 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/pedro/Desktop/IES/IES_97484/lab2/lab2_1/apache-tomcat-9.0.54/webapps/docs]
+28-Oct-2021 10:48:34.297 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/pedro/Desktop/IES/IES_97484/lab2/lab2_1/apache-tomcat-9.0.54/webapps/docs] has finished in [13] ms
+28-Oct-2021 10:48:34.297 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/pedro/Desktop/IES/IES_97484/lab2/lab2_1/apache-tomcat-9.0.54/webapps/host-manager]
+28-Oct-2021 10:48:34.318 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/pedro/Desktop/IES/IES_97484/lab2/lab2_1/apache-tomcat-9.0.54/webapps/host-manager] has finished in [21] ms
+28-Oct-2021 10:48:34.318 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/pedro/Desktop/IES/IES_97484/lab2/lab2_1/apache-tomcat-9.0.54/webapps/examples]
+28-Oct-2021 10:48:34.452 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/pedro/Desktop/IES/IES_97484/lab2/lab2_1/apache-tomcat-9.0.54/webapps/examples] has finished in [134] ms
+28-Oct-2021 10:48:34.453 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/pedro/Desktop/IES/IES_97484/lab2/lab2_1/apache-tomcat-9.0.54/webapps/manager]
+28-Oct-2021 10:48:34.479 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/pedro/Desktop/IES/IES_97484/lab2/lab2_1/apache-tomcat-9.0.54/webapps/manager] has finished in [26] ms
+28-Oct-2021 10:48:34.479 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/pedro/Desktop/IES/IES_97484/lab2/lab2_1/apache-tomcat-9.0.54/webapps/ROOT]
+28-Oct-2021 10:48:34.490 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/pedro/Desktop/IES/IES_97484/lab2/lab2_1/apache-tomcat-9.0.54/webapps/ROOT] has finished in [11] ms
+28-Oct-2021 10:48:34.494 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+28-Oct-2021 10:48:34.500 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [446] milliseconds
