@@ -409,3 +409,117 @@
 28-Oct-2021 10:48:34.490 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/pedro/Desktop/IES/IES_97484/lab2/lab2_1/apache-tomcat-9.0.54/webapps/ROOT] has finished in [11] ms
 28-Oct-2021 10:48:34.494 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
 28-Oct-2021 10:48:34.500 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [446] milliseconds
+28-Oct-2021 14:26:23.303 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/9.0.54
+28-Oct-2021 14:26:23.305 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Sep 28 2021 13:51:49 UTC
+28-Oct-2021 14:26:23.305 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 9.0.54.0
+28-Oct-2021 14:26:23.305 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Linux
+28-Oct-2021 14:26:23.305 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            5.4.0-67-generic
+28-Oct-2021 14:26:23.305 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+28-Oct-2021 14:26:23.305 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /usr/lib/jvm/java-11-openjdk-amd64
+28-Oct-2021 14:26:23.305 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           11.0.10+9-Ubuntu-0ubuntu1.20.04
+28-Oct-2021 14:26:23.306 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Ubuntu
+28-Oct-2021 14:26:23.306 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /home/pedro/Desktop/IES/IES_97484/lab2/lab2_1/apache-tomcat-9.0.54
+28-Oct-2021 14:26:23.306 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /home/pedro/Desktop/IES/IES_97484/lab2/lab2_1/apache-tomcat-9.0.54
+28-Oct-2021 14:26:23.317 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+28-Oct-2021 14:26:23.317 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+28-Oct-2021 14:26:23.317 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+28-Oct-2021 14:26:23.317 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+28-Oct-2021 14:26:23.317 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+28-Oct-2021 14:26:23.317 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/home/pedro/Desktop/IES/IES_97484/lab2/lab2_1/apache-tomcat-9.0.54/conf/logging.properties
+28-Oct-2021 14:26:23.318 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+28-Oct-2021 14:26:23.318 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+28-Oct-2021 14:26:23.318 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+28-Oct-2021 14:26:23.318 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+28-Oct-2021 14:26:23.318 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+28-Oct-2021 14:26:23.318 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/home/pedro/Desktop/IES/IES_97484/lab2/lab2_1/apache-tomcat-9.0.54
+28-Oct-2021 14:26:23.318 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/home/pedro/Desktop/IES/IES_97484/lab2/lab2_1/apache-tomcat-9.0.54
+28-Oct-2021 14:26:23.318 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/home/pedro/Desktop/IES/IES_97484/lab2/lab2_1/apache-tomcat-9.0.54/temp
+28-Oct-2021 14:26:23.320 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [/usr/java/packages/lib:/usr/lib/x86_64-linux-gnu/jni:/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/jni:/lib:/usr/lib]
+28-Oct-2021 14:26:23.579 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+28-Oct-2021 14:26:23.600 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [446] milliseconds
+28-Oct-2021 14:26:23.650 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+28-Oct-2021 14:26:23.650 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.54]
+28-Oct-2021 14:26:23.669 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [/home/pedro/Desktop/IES/IES_97484/lab2/lab2_1/apache-tomcat-9.0.54/webapps/my-webapp-1.0-SNAPSHOT.war]
+28-Oct-2021 14:26:23.870 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [/home/pedro/Desktop/IES/IES_97484/lab2/lab2_1/apache-tomcat-9.0.54/webapps/my-webapp-1.0-SNAPSHOT.war] has finished in [200] ms
+28-Oct-2021 14:26:23.870 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/pedro/Desktop/IES/IES_97484/lab2/lab2_1/apache-tomcat-9.0.54/webapps/docs]
+28-Oct-2021 14:26:23.885 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/pedro/Desktop/IES/IES_97484/lab2/lab2_1/apache-tomcat-9.0.54/webapps/docs] has finished in [15] ms
+28-Oct-2021 14:26:23.885 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/pedro/Desktop/IES/IES_97484/lab2/lab2_1/apache-tomcat-9.0.54/webapps/host-manager]
+28-Oct-2021 14:26:23.910 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/pedro/Desktop/IES/IES_97484/lab2/lab2_1/apache-tomcat-9.0.54/webapps/host-manager] has finished in [25] ms
+28-Oct-2021 14:26:23.910 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/pedro/Desktop/IES/IES_97484/lab2/lab2_1/apache-tomcat-9.0.54/webapps/examples]
+28-Oct-2021 14:26:24.099 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/pedro/Desktop/IES/IES_97484/lab2/lab2_1/apache-tomcat-9.0.54/webapps/examples] has finished in [189] ms
+28-Oct-2021 14:26:24.099 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/pedro/Desktop/IES/IES_97484/lab2/lab2_1/apache-tomcat-9.0.54/webapps/manager]
+28-Oct-2021 14:26:24.125 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/pedro/Desktop/IES/IES_97484/lab2/lab2_1/apache-tomcat-9.0.54/webapps/manager] has finished in [26] ms
+28-Oct-2021 14:26:24.126 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/pedro/Desktop/IES/IES_97484/lab2/lab2_1/apache-tomcat-9.0.54/webapps/ROOT]
+28-Oct-2021 14:26:24.140 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/pedro/Desktop/IES/IES_97484/lab2/lab2_1/apache-tomcat-9.0.54/webapps/ROOT] has finished in [13] ms
+28-Oct-2021 14:26:24.144 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+28-Oct-2021 14:26:24.151 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [551] milliseconds
+28-Oct-2021 14:35:11.043 INFO [http-nio-8080-exec-1] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/my-webapp-1.0-SNAPSHOT]
+28-Oct-2021 14:35:20.752 INFO [http-nio-8080-exec-2] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [/home/pedro/Desktop/IES/IES_97484/lab2/lab2_1/apache-tomcat-9.0.54/webapps/my-webapp-1.0-SNAPSHOT.war]
+28-Oct-2021 14:35:20.784 INFO [http-nio-8080-exec-2] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [/home/pedro/Desktop/IES/IES_97484/lab2/lab2_1/apache-tomcat-9.0.54/webapps/my-webapp-1.0-SNAPSHOT.war] has finished in [32] ms
+28-Oct-2021 14:35:50.274 INFO [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+28-Oct-2021 14:35:50.275 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+28-Oct-2021 14:35:50.282 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+28-Oct-2021 14:35:50.300 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+28-Oct-2021 14:35:50.329 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+28-Oct-2021 14:35:56.452 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/9.0.54
+28-Oct-2021 14:35:56.455 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Sep 28 2021 13:51:49 UTC
+28-Oct-2021 14:35:56.455 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 9.0.54.0
+28-Oct-2021 14:35:56.455 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Linux
+28-Oct-2021 14:35:56.455 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            5.4.0-67-generic
+28-Oct-2021 14:35:56.455 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+28-Oct-2021 14:35:56.455 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /usr/lib/jvm/java-11-openjdk-amd64
+28-Oct-2021 14:35:56.455 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           11.0.10+9-Ubuntu-0ubuntu1.20.04
+28-Oct-2021 14:35:56.455 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Ubuntu
+28-Oct-2021 14:35:56.455 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /home/pedro/Desktop/IES/IES_97484/lab2/lab2_1/apache-tomcat-9.0.54
+28-Oct-2021 14:35:56.455 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /home/pedro/Desktop/IES/IES_97484/lab2/lab2_1/apache-tomcat-9.0.54
+28-Oct-2021 14:35:56.464 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+28-Oct-2021 14:35:56.464 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+28-Oct-2021 14:35:56.464 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+28-Oct-2021 14:35:56.464 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+28-Oct-2021 14:35:56.464 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+28-Oct-2021 14:35:56.464 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/home/pedro/Desktop/IES/IES_97484/lab2/lab2_1/apache-tomcat-9.0.54/conf/logging.properties
+28-Oct-2021 14:35:56.464 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+28-Oct-2021 14:35:56.464 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+28-Oct-2021 14:35:56.464 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+28-Oct-2021 14:35:56.464 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+28-Oct-2021 14:35:56.465 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+28-Oct-2021 14:35:56.465 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/home/pedro/Desktop/IES/IES_97484/lab2/lab2_1/apache-tomcat-9.0.54
+28-Oct-2021 14:35:56.465 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/home/pedro/Desktop/IES/IES_97484/lab2/lab2_1/apache-tomcat-9.0.54
+28-Oct-2021 14:35:56.465 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/home/pedro/Desktop/IES/IES_97484/lab2/lab2_1/apache-tomcat-9.0.54/temp
+28-Oct-2021 14:35:56.466 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [/usr/java/packages/lib:/usr/lib/x86_64-linux-gnu/jni:/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/jni:/lib:/usr/lib]
+28-Oct-2021 14:35:56.722 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+28-Oct-2021 14:35:56.741 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [422] milliseconds
+28-Oct-2021 14:35:56.795 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+28-Oct-2021 14:35:56.795 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.54]
+28-Oct-2021 14:35:56.806 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [/home/pedro/Desktop/IES/IES_97484/lab2/lab2_1/apache-tomcat-9.0.54/webapps/my-webapp-1.0-SNAPSHOT.war]
+28-Oct-2021 14:35:57.003 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [/home/pedro/Desktop/IES/IES_97484/lab2/lab2_1/apache-tomcat-9.0.54/webapps/my-webapp-1.0-SNAPSHOT.war] has finished in [197] ms
+28-Oct-2021 14:35:57.004 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/pedro/Desktop/IES/IES_97484/lab2/lab2_1/apache-tomcat-9.0.54/webapps/docs]
+28-Oct-2021 14:35:57.023 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/pedro/Desktop/IES/IES_97484/lab2/lab2_1/apache-tomcat-9.0.54/webapps/docs] has finished in [18] ms
+28-Oct-2021 14:35:57.023 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/pedro/Desktop/IES/IES_97484/lab2/lab2_1/apache-tomcat-9.0.54/webapps/host-manager]
+28-Oct-2021 14:35:57.057 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/pedro/Desktop/IES/IES_97484/lab2/lab2_1/apache-tomcat-9.0.54/webapps/host-manager] has finished in [33] ms
+28-Oct-2021 14:35:57.057 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/pedro/Desktop/IES/IES_97484/lab2/lab2_1/apache-tomcat-9.0.54/webapps/examples]
+28-Oct-2021 14:35:57.213 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/pedro/Desktop/IES/IES_97484/lab2/lab2_1/apache-tomcat-9.0.54/webapps/examples] has finished in [155] ms
+28-Oct-2021 14:35:57.213 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/pedro/Desktop/IES/IES_97484/lab2/lab2_1/apache-tomcat-9.0.54/webapps/manager]
+28-Oct-2021 14:35:57.248 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/pedro/Desktop/IES/IES_97484/lab2/lab2_1/apache-tomcat-9.0.54/webapps/manager] has finished in [35] ms
+28-Oct-2021 14:35:57.248 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/pedro/Desktop/IES/IES_97484/lab2/lab2_1/apache-tomcat-9.0.54/webapps/ROOT]
+28-Oct-2021 14:35:57.261 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/pedro/Desktop/IES/IES_97484/lab2/lab2_1/apache-tomcat-9.0.54/webapps/ROOT] has finished in [12] ms
+28-Oct-2021 14:35:57.264 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+28-Oct-2021 14:35:57.271 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [529] milliseconds
+28-Oct-2021 14:38:51.464 INFO [http-nio-8080-exec-4] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/my-webapp-1.0-SNAPSHOT]
+28-Oct-2021 14:38:57.175 INFO [http-nio-8080-exec-5] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [/home/pedro/Desktop/IES/IES_97484/lab2/lab2_1/apache-tomcat-9.0.54/webapps/my-webapp-1.0-SNAPSHOT.war]
+28-Oct-2021 14:38:57.213 INFO [http-nio-8080-exec-5] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [/home/pedro/Desktop/IES/IES_97484/lab2/lab2_1/apache-tomcat-9.0.54/webapps/my-webapp-1.0-SNAPSHOT.war] has finished in [38] ms
+28-Oct-2021 14:41:46.720 INFO [http-nio-8080-exec-16] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/my-webapp-1.0-SNAPSHOT]
+28-Oct-2021 14:41:52.400 INFO [http-nio-8080-exec-15] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [/home/pedro/Desktop/IES/IES_97484/lab2/lab2_1/apache-tomcat-9.0.54/webapps/my-webapp-1.0-SNAPSHOT.war]
+28-Oct-2021 14:41:52.430 INFO [http-nio-8080-exec-15] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [/home/pedro/Desktop/IES/IES_97484/lab2/lab2_1/apache-tomcat-9.0.54/webapps/my-webapp-1.0-SNAPSHOT.war] has finished in [30] ms
+28-Oct-2021 14:43:52.474 INFO [http-nio-8080-exec-24] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/my-webapp-1.0-SNAPSHOT]
+28-Oct-2021 14:43:58.642 INFO [http-nio-8080-exec-28] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [/home/pedro/Desktop/IES/IES_97484/lab2/lab2_1/apache-tomcat-9.0.54/webapps/my-webapp-1.0-SNAPSHOT.war]
+28-Oct-2021 14:43:58.666 INFO [http-nio-8080-exec-28] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [/home/pedro/Desktop/IES/IES_97484/lab2/lab2_1/apache-tomcat-9.0.54/webapps/my-webapp-1.0-SNAPSHOT.war] has finished in [24] ms
+28-Oct-2021 14:45:39.465 INFO [http-nio-8080-exec-33] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/my-webapp-1.0-SNAPSHOT]
+28-Oct-2021 14:45:44.204 INFO [http-nio-8080-exec-25] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [/home/pedro/Desktop/IES/IES_97484/lab2/lab2_1/apache-tomcat-9.0.54/webapps/my-webapp-1.0-SNAPSHOT.war]
+28-Oct-2021 14:45:44.230 INFO [http-nio-8080-exec-25] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [/home/pedro/Desktop/IES/IES_97484/lab2/lab2_1/apache-tomcat-9.0.54/webapps/my-webapp-1.0-SNAPSHOT.war] has finished in [27] ms
+28-Oct-2021 14:50:28.930 INFO [http-nio-8080-exec-42] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/my-webapp-1.0-SNAPSHOT]
+28-Oct-2021 14:50:34.962 INFO [http-nio-8080-exec-39] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [/home/pedro/Desktop/IES/IES_97484/lab2/lab2_1/apache-tomcat-9.0.54/webapps/my-webapp-1.0-SNAPSHOT.war]
+28-Oct-2021 14:50:34.987 INFO [http-nio-8080-exec-39] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [/home/pedro/Desktop/IES/IES_97484/lab2/lab2_1/apache-tomcat-9.0.54/webapps/my-webapp-1.0-SNAPSHOT.war] has finished in [25] ms
+28-Oct-2021 14:52:54.189 INFO [http-nio-8080-exec-48] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/my-webapp-1.0-SNAPSHOT]
+28-Oct-2021 14:52:59.448 INFO [http-nio-8080-exec-49] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [/home/pedro/Desktop/IES/IES_97484/lab2/lab2_1/apache-tomcat-9.0.54/webapps/my-webapp-1.0-SNAPSHOT.war]
+28-Oct-2021 14:52:59.468 INFO [http-nio-8080-exec-49] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [/home/pedro/Desktop/IES/IES_97484/lab2/lab2_1/apache-tomcat-9.0.54/webapps/my-webapp-1.0-SNAPSHOT.war] has finished in [20] ms

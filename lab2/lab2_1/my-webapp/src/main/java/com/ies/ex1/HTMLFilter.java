@@ -45,16 +45,16 @@ public final class HTMLFilter {
         for (int i = 0; i < content.length; i++) {
             switch (content[i]) {
             case '<':
-                result.append("<");
+                result.append("&lt;");
                 break;
             case '>':
-                result.append(">");
+                result.append("&gt;");
                 break;
             case '&':
-                result.append("&");
+                result.append("&amp;");
                 break;
             case '"':
-                result.append('"');
+                result.append("&quot;");
                 break;
             default:
                 result.append(content[i]);
