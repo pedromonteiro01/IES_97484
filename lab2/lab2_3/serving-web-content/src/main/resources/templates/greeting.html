@@ -1,0 +1,34 @@
+<!DOCTYPE HTML>
+<html xmlns:th="http://www.thymeleaf.org">
+<head> 
+    <title>Serving Web Content</title> 
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <style>
+        .test {
+            margin: 5rem;
+        }
+
+        button {
+            background-color: #ccc;
+            border: solid 1px #aaa;
+            border-radius: 6px;
+            padding: 0.5rem 1rem;
+        }
+
+        button a {
+            text-decoration: none;
+            color: black;
+        }
+
+        button:hover {
+            transform: scale(1.1);
+        }
+    </style>
+</head>
+<body>
+    <div class="test">
+        <p th:text="'Hello, ' + ${name} + '!'" />
+        <button><a href="/">Back</a></button>
+    </div>
+</body>
+</html>
