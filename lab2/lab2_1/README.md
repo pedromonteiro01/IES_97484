@@ -106,3 +106,10 @@ out.println("<P>");
             out.println("</html>");
 ...
 ```
+
+Exemplo do conteúdo do log:
+```
+28-Oct-2021 10:05:14.997 INFO [Catalina-utility-2] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/docs] is completed
+28-Oct-2021 10:05:55.004 INFO [Catalina-utility-2] org.apache.catalina.startup.HostConfig.reload Reloading context []
+28-Oct-2021 10:05:55.021 INFO [Catalina-utility-2] org.apache.catalina.startup.HostConfig.reload Reloading context [/my-webapp-1.0-SNAPSHOT]
+```

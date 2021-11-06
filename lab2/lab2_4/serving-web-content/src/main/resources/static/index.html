@@ -3,8 +3,19 @@
 <head> 
     <title>Getting Started: Serving Web Content</title> 
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <style>
+        p a {
+            text-decoration: none;
+        }
+        p a:hover {
+            color: darkblue;
+        }
+    </style>
 </head>
 <body>
-    <p>Get your greeting <a href="/greeting">here</a></p>
+    <h1>Index</h1>
+    <p>See specific quote for the specified movie <a href="quotes?show=2">/quotes?show=id</a></p>
+    <p>See all movies available <a href="shows">/shows</a></p>
+    <p>See a random quote from a movie <a href="quote">/quote</a></p>
 </body>
 </html>
