@@ -25,15 +25,16 @@ public class User {
     @NotBlank(message = "Email is mandatory")
     private String email;
 
+    @NotBlank(message = "Phone is mandatory")
+    private String phone;
+
     public void setId(long id2) {
         this.id = id2;
     }
 
-
     public long getId() {
         return this.id;
     }
-
 
     public String getName() {
         return this.name;
@@ -51,14 +52,25 @@ public class User {
         this.email = email;
     }
 
+    public String getPhone() {
+        return this.phone;
+    }
+
+    public void setPhone(String phone) {
+        this.phone = phone;
+    }
+
+
     @Override
     public String toString() {
         return "{" +
             " id='" + getId() + "'" +
             ", name='" + getName() + "'" +
             ", email='" + getEmail() + "'" +
+            ", phone='" + getPhone() + "'" +
             "}";
     }
+
 
 
     // standard constructors / setters / getters / toString
