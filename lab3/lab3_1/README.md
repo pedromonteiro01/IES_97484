@@ -190,3 +190,14 @@ Organização das pastas e ficheiros:
             |
             application.properties
 ```
+
+Comandos utilizados:<br>
+Instalar e verificar a existência de erros:
+```
+./mvnw clean install
+```
+Correr a aplicação:<br>
+```
+./mvnw spring-boot:run
+```
+Será possível aceder à aplicação em http://localhost:8080/
