@@ -133,3 +133,60 @@ Foi seguido o tutorial disponível em: https://www.baeldung.com/spring-boot-crud
     }
     ```
 
+Foi criado um projeto *Maven* utilizando o [spring inititializr](https://start.spring.io/) onde foram adicionadas as seguintes dependências:
+-  Spring Web
+- Thymeleaf
+- Spring Data JPA
+- H2 database
+- Validation
+
+### Questions
+- The “UserController” class gets an instance of “userRepository” through its constructor; how is this new repository instantiated?
+    - O novo repositório é instanciado automaticamente pelo *SpringBoot Bean Autoconfiguration* após a anotação *Autowired* tentar obter o *Bean* para o *UserRepository*  
+    ```java
+    @Autowired
+    public UserController(UserRepository userRepository){
+        this.userRepository = userRepository;
+    }
+    ```
+- List the methods invoked in the “userRepository” object by the “UserController”. Where are these methods defined?
+    - A anotação *@Repository* é a interface importante em todo este processo, sendo que é esta que fornece uma camada de abstração. A interface *CRUDRepository* é quem fornece as funcionalidades CRUD. Esta interface implementa, então, as operações CRUD básicas como save, delete, count, findAll, ...
+    ```java
+    public interface UserRepository extends CrudRepository<User, Long> {}
+    ```
+- Where is the databeing saved?
+    - Os dados estão a ser guardados em memória, sendo que após a aplicação ser terminada os dados vão ser perdidos.
+- Where is the rule for the "not empty" email address defined?
+    - Através da anotação *@NotBlank* importada de javax.validation.constraints
+    ```java
+    import javax.validation.constraints.NotBlank;
+
+    (...)
+
+    @NotBlank(message = "Email is mandatory")
+    private String email;
+    ```
+
+Organização das pastas e ficheiros:
+```
++- com
+    +- example     
+        +- myapplication
+            +- MyApplication.java
+            |
+            +- controllers
+            |   +- Controller.java
+            |
+            +- entities
+            |   +- User.java
+            |
+            +- repositories
+                +- UserRepository.java
+        +- resources
+            +- static
+            |
+            +- templates
+                +- index.html
+            |
+            application.properties
+```
