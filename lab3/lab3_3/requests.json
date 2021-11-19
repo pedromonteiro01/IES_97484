@@ -1,0 +1,23 @@
+{
+    "id":1,
+    "name":"Doctor Strange",
+    "year":2016
+}
+{
+    "id":2,
+    "name":"Captain America: The First Avenger",
+    "year":2016
+}
+{
+    "id":3,
+    "name":"Black Widow",
+    "year":2021
+}
+{
+    "quote":"I can do this all day!",
+    "movieId":2
+}
+{
+    "quote":"I Could Have Been More Famous Than Captain America",
+    "movieId":3
+}
