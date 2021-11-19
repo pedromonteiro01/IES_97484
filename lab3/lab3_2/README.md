@@ -92,3 +92,13 @@ public ResponseEntity<Employee> getEmployeeByEmail(@PathVariable(value = "email"
     return ResponseEntity.ok().body(employee);
 }
 ```
+
+Exemplos utilizando o Postman
+- Exemplo de Insert:
+    - ![GET all movies](prints/create.png)
+- Exemplo de Select:
+    - ![GET all movies](prints/get.png)
+- Exemplo de Filter:
+    - ![GET all movies](prints/filter.png)
+- Exemplo de Update:
+    - ![GET all movies](prints/update.png)

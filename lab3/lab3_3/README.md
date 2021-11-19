@@ -100,3 +100,4 @@ C) <br>
     - define o atributo que é a chave primária na tabela
 
 D) <br>
+A anotação @AutoWired preocupa-se com a injeção de dependências, sendo possível partilhar a instância de um serviço e de um repositório facilmente 
